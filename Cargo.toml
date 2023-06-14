@@ -8,5 +8,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 gstd = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
-
+parity-scale-codec = { git = "https://github.com/paritytech/parity-scale-codec.git" , branch = "master"  }
+scale-info = { git = "https://github.com/paritytech/scale-info.git", branch = "master"}
 
